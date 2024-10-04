@@ -16,6 +16,9 @@ This MERN stack e-commerce platform offers a curated collection of organic, crue
 - Authentication: JWT
 - API Testing: Postman
 
+## Deployment
+Check out the live project here: https://good-pink-llama-suit.cyclic.app/
+
 ## Installation
 1. Clone repo:
 ```bash
@@ -30,13 +33,15 @@ cd ../server && npm install
 
 3. Add .env with:
 ```bash
-### MONGO_URI=your_mongodb_connection_string
-### JWT_SECRET=your_jwt_secret
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
 ```
 
 4. Run the project:
 ```bash
 cd server && npm run dev
 ```
+
+#
 
 
