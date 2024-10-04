@@ -18,17 +18,25 @@ This MERN stack e-commerce platform offers a curated collection of organic, crue
 
 ## Installation
 1. Clone repo:
-### git clone https://github.com/yourusername/GrowNatural.git
+```bash
+git clone https://github.com/yourusername/GrowNatural.git
+```
 
 2. Install dependencies:
-### cd client && npm install
-### cd ../server && npm install
+```bash
+cd client && npm install
+cd ../server && npm install
+```
 
 3. Add .env with:
+```bash
 ### MONGO_URI=your_mongodb_connection_string
 ### JWT_SECRET=your_jwt_secret
+```
 
 4. Run the project:
-### cd server && npm run dev
+```bash
+cd server && npm run dev
+```
 
 
